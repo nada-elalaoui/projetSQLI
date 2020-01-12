@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner AppLocale="UTF16" ID="{4DEEBA37-6C5B-4C50-9707-59E1925DB0C6}" Label="" LastModificationDate="1569170522" Name="ModeleConceptuelDonnees_1" Objects="59" Symbols="5" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
+
+<o:RootObject Id="o1">
+<c:Children>
+<o:Model Id="o2">
+<a:ObjectID>4DEEBA37-6C5B-4C50-9707-59E1925DB0C6</a:ObjectID>
+<a:Name>ModeleConceptuelDonnees_1</a:Name>
+<a:Code>MODELECONCEPTUELDONNEES_1</a:Code>
+<a:CreationDate>1569169192</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170364</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:PackageOptionsText>[FolderOptions]
+
+[FolderOptions\Conceptual Data Objects]
+GenerationCheckModel=Yes
+GenerationPath=
+GenerationOptions=
+GenerationTasks=
+GenerationTargets=
+GenerationSelections=</a:PackageOptionsText>
+<a:ModelOptionsText>[ModelOptions]
+
+[ModelOptions\Conceptual options]
+CaseSensitive=No
+DisplayName=Yes
+EnableTrans=No
+EnableRequirements=No
+InfoUnique=Yes
+AllowReuse=Yes
+InfoAllowReuse=Yes
+Notation=2
+RlshUnique=Yes
+DefaultDttp=
+DomnCopyDttp=Yes
+DomnCopyChck=No
+DomnCopyRule=No
+DomnCopyExat=No
+DomnCopyMand=No
+DttpFullName=Yes
+
+[ModelOptions\Conceptual options\NamingOptionsTemplates]
+
+[ModelOptions\Conceptual options\ClssNamingOptions]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=&quot;\/:*?&lt;&gt;|&quot;
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FILO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_. &quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMEOBJ\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\FRMELNK\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\DefaultClass\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMPCKG\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMDOMN\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\INFO\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ENTT\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\IDTF\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\RLSH\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\ASSC\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR]
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR\Name]
+Template=
+MaxLen=254
+Case=M
+ValidChar=
+InvldChar=
+AllValid=Yes
+NoAccent=No
+DefaultChar=_
+Script=.convert_name(%Name%,&quot;_&quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Conceptual options\ClssNamingOptions\CDMINHR\Code]
+Template=
+MaxLen=254
+Case=U
+ValidChar=&#39;a&#39;-&#39;z&#39;,&#39;A&#39;-&#39;Z&#39;,&#39;0&#39;-&#39;9&#39;,&quot;_&quot;
+InvldChar=
+AllValid=No
+NoAccent=Yes
+DefaultChar=_
+Script=.convert_code(%Code%,&quot; &quot;)
+ConvTable=
+ConvTablePath=%_HOME%\Fichiers de ressources\Tables de conversion
+
+[ModelOptions\Generate]
+
+[ModelOptions\Generate\Pdm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No
+BuildTrgr=No
+TablePrefix=
+RefrUpdRule=RESTRICT
+RefrDelRule=RESTRICT
+IndxPKName=%TABLE%_PK
+IndxAKName=%TABLE%_AK
+IndxFKName=%REFR%_FK
+IndxThreshold=
+ClassPrefix=
+ColnFKName=%.3:PARENT%_%COLUMN%
+ColnFKNameUse=No
+
+[ModelOptions\Generate\Oom]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=Yes
+
+[ModelOptions\Generate\Ldm]
+CheckModel=Yes
+SaveLinks=Yes
+NameToCode=No</a:ModelOptionsText>
+<c:ConceptualDiagrams>
+<o:ConceptualDiagram Id="o3">
+<a:ObjectID>B9123F59-8A00-4809-9633-F623C19B588C</a:ObjectID>
+<a:Name>Diagramme_1</a:Name>
+<a:Code>DIAGRAMME_1</a:Code>
+<a:CreationDate>1569169193</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170364</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DisplayPreferences>[DisplayPreferences]
+
+[DisplayPreferences\CDM]
+
+[DisplayPreferences\General]
+Adjust to text=Yes
+Snap Grid=No
+Constrain Labels=Yes
+Display Grid=No
+Show Page Delimiter=Yes
+Grid size=0
+Graphic unit=2
+Window color=255, 255, 255
+Background image=
+Background mode=8
+Watermark image=
+Watermark mode=8
+Show watermark on screen=No
+Gradient mode=0
+Gradient end color=255, 255, 255
+Show Swimlane=No
+SwimlaneVert=Yes
+TreeVert=No
+CompDark=0
+
+[DisplayPreferences\Object]
+Mode=2
+Trunc Length=40
+Word Length=40
+Word Text=!&quot;&quot;#$%&amp;&#39;()*+,-./:;&lt;=&gt;?@[\]^_`{|}~
+Shortcut IntIcon=Yes
+Shortcut IntLoct=Yes
+Shortcut IntFullPath=No
+Shortcut IntLastPackage=Yes
+Shortcut ExtIcon=Yes
+Shortcut ExtLoct=No
+Shortcut ExtFullPath=No
+Shortcut ExtLastPackage=Yes
+Shortcut ExtIncludeModl=Yes
+EObjShowStrn=Yes
+ExtendedObject.Comment=No
+ExtendedObject.IconPicture=No
+ExtendedObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Nom de l&amp;#39;objet&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF] &lt;Separator Name=&quot;Séparateur&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Commentaire&quot; Attribute=&quot;Comment&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;LEFT&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+ELnkShowStrn=Yes
+ELnkShowName=Yes
+ExtendedLink_SymbolLayout=&lt;Form&gt;[CRLF] &lt;Form Name=&quot;Centre&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Source&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF] &lt;Form Name=&quot;Destination&quot; &gt;[CRLF] &lt;/Form&gt;[CRLF]&lt;/Form&gt;
+FileObject.Stereotype=No
+FileObject.DisplayName=Yes
+FileObject.LocationOrName=No
+FileObject.IconPicture=No
+FileObject.IconMode=Yes
+FileObject_SymbolLayout=&lt;Form&gt;[CRLF] &lt;StandardAttribute Name=&quot;Stéréotype&quot; Attribute=&quot;Stereotype&quot; Prefix=&quot;&amp;lt;&amp;lt;&quot; Suffix=&quot;&amp;gt;&amp;gt;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;ExclusiveChoice Name=&quot;Choix exclusif&quot; Mandatory=&quot;Yes&quot; Display=&quot;HorizontalRadios&quot; &gt;[CRLF]  &lt;StandardAttribute Name=&quot;Nom&quot; Attribute=&quot;DisplayName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF]  &lt;StandardAttribute Name=&quot;Emplacement&quot; Attribute=&quot;LocationOrName&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;No&quot; /&gt;[CRLF] &lt;/ExclusiveChoice&gt;[CRLF] &lt;StandardAttribute Name=&quot;Icône&quot; Attribute=&quot;IconPicture&quot; Prefix=&quot;&quot; Suffix=&quot;&quot; Alignment=&quot;CNTR&quot; Caption=&quot;&quot; Mandatory=&quot;Yes&quot; /&gt;[CRLF]&lt;/Form&gt;
+PckgStrn=Yes
+Package.Comment=No
+Package.IconPicture=No
+Package_SymbolLayout=
+Display Model Version=Yes
+EnttAttr=Yes
+PentMode=0
+PentNb=5
+EnttDttp=Yes
+EnttDomn=Yes
+EnttShowDomn=No
+EnttMand=Yes
+EnttCIdf=Yes
+EnttKeyI=Yes
+PentStrn=Yes
+IdtfStrn=Yes
+RlshName=Yes
+RlshRole=Yes
+RlshCard=No
+RlshDmnt=Yes
+RlshStrn=Yes
+InhrName=Yes
+InhrStrn=Yes
+Entity.IconPicture=No
+Entity_SymbolLayout=
+Association.IconPicture=No
+Association_SymbolLayout=
+Inheritance.IconPicture=No
+Inheritance_SymbolLayout=
+EnttStrn=Yes
+EnttCmmt=No
+AsscStrn=Yes
+AsscCmmt=No
+AsscAttr=Yes
+AsscDttp=Yes
+AsscDomn=Yes
+AsscShowDomn=No
+AsscMand=Yes
+AsscDLim=Yes
+AsscNb=5
+PassStrn=1
+LinkRole=Yes
+LinkCard=Yes
+LinkStrn=Yes
+
+[DisplayPreferences\Symbol]
+
+[DisplayPreferences\Symbol\FRMEOBJ]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=6000
+Height=2000
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=64
+Brush gradient color=192 192 192
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 255 128 128
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FRMELNK]
+CENTERFont=Arial,8,N
+CENTERFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\FILO]
+OBJSTRNFont=Arial,8,N
+OBJSTRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LCNMFont=Arial,8,N
+LCNMFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMPCKG]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3600
+Brush color=255 255 192
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 178 178 178
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ENTT]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+EntityPrimaryAttributeFont=Arial,8,U
+EntityPrimaryAttributeFont color=0, 0, 0
+IdentifiersFont=Arial,8,N
+IdentifiersFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=4000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\RLSH]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+NAMAFont=Arial,8,N
+NAMAFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 170 170
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\ASSC]
+STRNFont=Arial,8,N
+STRNFont color=0, 0, 0
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AttributesFont=Arial,8,N
+AttributesFont color=0, 0, 0
+LABLFont=Arial,8,N
+LABLFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Width=4800
+Height=3000
+Brush color=208 208 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINK]
+ROLEFont=Arial,8,N
+ROLEFont color=0, 0, 0
+CARDFont=Arial,8,N
+CARDFont color=0, 0, 0
+Line style=1
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\CDMINHR]
+DISPNAMEFont=Arial,8,N
+DISPNAMEFont color=0, 0, 0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=Yes
+Width=1600
+Height=1000
+Brush color=176 255 255
+Fill Color=Yes
+Brush style=6
+Brush bitmap mode=12
+Brush gradient mode=65
+Brush gradient color=255 255 255
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\LINH]
+Line style=1
+Pen=1 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\USRDEPD]
+OBJXSTRFont=Arial,8,N
+OBJXSTRFont color=0, 0, 0
+Line style=1
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=2 0 128 128 255
+Shadow color=192 192 192
+Shadow=0
+
+[DisplayPreferences\Symbol\Free Symbol]
+Free TextFont=Arial,8,N
+Free TextFont color=0, 0, 0
+Line style=0
+AutoAdjustToText=Yes
+Keep aspect=No
+Keep center=No
+Keep size=No
+Brush color=255 255 255
+Fill Color=Yes
+Brush style=1
+Brush bitmap mode=12
+Brush gradient mode=0
+Brush gradient color=118 118 118
+Brush background image=
+Custom shape=
+Custom text mode=0
+Pen=1 0 0 0 255
+Shadow color=192 192 192
+Shadow=0</a:DisplayPreferences>
+<a:PaperSize>(8500, 11000)</a:PaperSize>
+<a:PageMargins>((315,354), (433,354))</a:PageMargins>
+<a:PageOrientation>1</a:PageOrientation>
+<a:PaperSource>15</a:PaperSource>
+<c:Symbols>
+<o:AssociationLinkSymbol Id="o4">
+<a:CreationDate>1569170363</a:CreationDate>
+<a:ModificationDate>1569170363</a:ModificationDate>
+<a:Rect>((-6150,8600), (-1575,9774))</a:Rect>
+<a:ListOfPoints>((-6150,9187),(-1575,9187))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o5"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o7"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:AssociationLinkSymbol Id="o8">
+<a:CreationDate>1569170364</a:CreationDate>
+<a:ModificationDate>1569170364</a:ModificationDate>
+<a:Rect>((1050,8863), (5550,10037))</a:Rect>
+<a:ListOfPoints>((5550,9450),(1050,9450))</a:ListOfPoints>
+<a:CornerStyle>1</a:CornerStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
+<a:LineColor>16744576</a:LineColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>ROLE 0 Arial,8,N
+CARD 0 Arial,8,N</a:FontList>
+<c:SourceSymbol>
+<o:EntitySymbol Ref="o9"/>
+</c:SourceSymbol>
+<c:DestinationSymbol>
+<o:AssociationSymbol Ref="o6"/>
+</c:DestinationSymbol>
+<c:Object>
+<o:AssociationLink Ref="o10"/>
+</c:Object>
+</o:AssociationLinkSymbol>
+<o:EntitySymbol Id="o9">
+<a:CreationDate>1569169202</a:CreationDate>
+<a:ModificationDate>1569170270</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((4051,-8249), (25351,17100))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Entity Ref="o11"/>
+</c:Object>
+</o:EntitySymbol>
+<o:EntitySymbol Id="o5">
+<a:CreationDate>1569169240</a:CreationDate>
+<a:ModificationDate>1569170277</a:ModificationDate>
+<a:IconMode>-1</a:IconMode>
+<a:Rect>((-26100,5026), (-5850,13474))</a:Rect>
+<a:AutoAdjustToText>0</a:AutoAdjustToText>
+<a:LineColor>11184640</a:LineColor>
+<a:FillColor>16777136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N
+EntityPrimaryAttribute 0 Arial,8,U
+Identifiers 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<a:ManuallyResized>1</a:ManuallyResized>
+<c:Object>
+<o:Entity Ref="o12"/>
+</c:Object>
+</o:EntitySymbol>
+<o:AssociationSymbol Id="o6">
+<a:CreationDate>1569170284</a:CreationDate>
+<a:ModificationDate>1569170352</a:ModificationDate>
+<a:Rect>((-3150,7540), (1650,11059))</a:Rect>
+<a:LineColor>16744576</a:LineColor>
+<a:FillColor>16765136</a:FillColor>
+<a:ShadowColor>12632256</a:ShadowColor>
+<a:FontList>STRN 0 Arial,8,N
+DISPNAME 0 Arial,8,N
+Attributes 0 Arial,8,N
+LABL 0 Arial,8,N</a:FontList>
+<a:BrushStyle>6</a:BrushStyle>
+<a:GradientFillMode>65</a:GradientFillMode>
+<a:GradientEndColor>16777215</a:GradientEndColor>
+<c:Object>
+<o:Association Ref="o13"/>
+</c:Object>
+</o:AssociationSymbol>
+</c:Symbols>
+</o:ConceptualDiagram>
+</c:ConceptualDiagrams>
+<c:DefaultDiagram>
+<o:ConceptualDiagram Ref="o3"/>
+</c:DefaultDiagram>
+<c:Entities>
+<o:Entity Id="o11">
+<a:ObjectID>F256FEE0-00B6-4548-89DF-BAD5419EB21D</a:ObjectID>
+<a:Name>Information</a:Name>
+<a:Code>INFORMATION</a:Code>
+<a:CreationDate>1569169202</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170522</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o14">
+<a:ObjectID>BFDF2350-A34C-4D3F-8295-338730EC1C0E</a:ObjectID>
+<a:Name>ID_INF</a:Name>
+<a:Code>ID_INF</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o15"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o14"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o15">
+<a:ObjectID>EA359A55-1C93-43D7-B093-181D2C939634</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o16"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o17">
+<a:ObjectID>068C50BA-A1AF-45AA-8690-3E6711FB0DC4</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o18"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o19">
+<a:ObjectID>F3E6799B-D1B8-4CB5-BCD5-A529CA724CAE</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o20"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o21">
+<a:ObjectID>EC404BA3-AB41-4D63-8972-2A8822850DFD</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o22"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o23">
+<a:ObjectID>1ACAEA57-CEB2-4916-911A-739F4EC0CC04</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o24"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o25">
+<a:ObjectID>4FEE7CA9-84F6-4EF2-817D-139D35AF21F0</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o26"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o27">
+<a:ObjectID>A6A5DC53-B1EF-4BD6-933B-3B4C24AC0CA7</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o28"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o29">
+<a:ObjectID>6D4F8ECD-1F4F-428E-9078-090347C54D93</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o30"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o31">
+<a:ObjectID>B58E470C-9A41-42E0-B0BF-C10D8A1015B7</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o32"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o33">
+<a:ObjectID>D96BB4D0-F31C-4573-B799-0FA7B2B8C673</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o34"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o35">
+<a:ObjectID>8E7E7F0E-001B-47E7-BB7C-E58CF1C09786</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o36"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o37">
+<a:ObjectID>20313945-B728-46BC-B34E-05CF33B7F523</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o38"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o39">
+<a:ObjectID>7C4F9E25-41CE-4C6D-9A96-9EB1D13F24CF</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o40"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o41">
+<a:ObjectID>56855492-DCAE-4DD2-8909-05B617A528CB</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o42"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o43">
+<a:ObjectID>CFBBAA91-DAF6-4A89-BADE-82EF65C6151B</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o44"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o45">
+<a:ObjectID>30B89351-8650-4107-97F1-846E717C9903</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o46"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o47">
+<a:ObjectID>2A823BA7-1473-41F1-A0BA-225D80948552</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o48"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o49">
+<a:ObjectID>550E9342-AAFB-4BA5-8435-0EC3D1D09A59</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o50"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o51">
+<a:ObjectID>EAC6E525-0924-467F-ABE7-751CE2BB7D7D</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o52"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o53">
+<a:ObjectID>EE667886-ED67-454E-9EB4-F1F55FCAD446</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o54"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o55">
+<a:ObjectID>10F977EF-81A9-486C-AC6A-65CA0D3074C6</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o56"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o57">
+<a:ObjectID>2017C11A-C819-46A3-B1EB-96CA51AAF9D7</a:ObjectID>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o58"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+<o:Entity Id="o12">
+<a:ObjectID>986B7DD4-7225-4ADD-91B1-1CCF9AF14077</a:ObjectID>
+<a:Name>Administrateur</a:Name>
+<a:Code>ADMINISTRATEUR</a:Code>
+<a:CreationDate>1569169240</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569169615</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:Identifiers>
+<o:Identifier Id="o59">
+<a:ObjectID>3AD50551-0D4F-49A3-B2A2-D006A7D12AC3</a:ObjectID>
+<a:Name>ID_Admin</a:Name>
+<a:Code>ID_ADMIN</a:Code>
+<a:CreationDate>1569169603</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569169637</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:Identifier.Attributes>
+<o:EntityAttribute Ref="o60"/>
+</c:Identifier.Attributes>
+</o:Identifier>
+</c:Identifiers>
+<c:PrimaryIdentifier>
+<o:Identifier Ref="o59"/>
+</c:PrimaryIdentifier>
+<c:Attributes>
+<o:EntityAttribute Id="o60">
+<a:ObjectID>61B2C4B7-2CEB-4941-B32D-8324D566AA36</a:ObjectID>
+<a:CreationDate>1569169488</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569169615</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
+<c:DataItem>
+<o:DataItem Ref="o61"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o62">
+<a:ObjectID>0881B41D-8348-41DA-81A5-1CA1F06595F1</a:ObjectID>
+<a:CreationDate>1569169488</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569169564</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o63"/>
+</c:DataItem>
+</o:EntityAttribute>
+<o:EntityAttribute Id="o64">
+<a:ObjectID>AE53A2CD-1F7B-4726-B4C8-EF787CBF5320</a:ObjectID>
+<a:CreationDate>1569169488</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569169564</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<c:DataItem>
+<o:DataItem Ref="o65"/>
+</c:DataItem>
+</o:EntityAttribute>
+</c:Attributes>
+</o:Entity>
+</c:Entities>
+<c:DataItems>
+<o:DataItem Id="o61">
+<a:ObjectID>3EAA8FE2-52C3-4875-AC48-8C4C4B4B4DA9</a:ObjectID>
+<a:Name>ID_Admin</a:Name>
+<a:Code>ID_ADMIN</a:Code>
+<a:CreationDate>1569169488</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569169564</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o63">
+<a:ObjectID>CDBBDD4F-6E39-496C-BE24-7DD4E1E32597</a:ObjectID>
+<a:Name>Email</a:Name>
+<a:Code>EMAIL</a:Code>
+<a:CreationDate>1569169488</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569169564</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA30</a:DataType>
+<a:Length>30</a:Length>
+</o:DataItem>
+<o:DataItem Id="o65">
+<a:ObjectID>4B94FB99-0427-4C47-AD81-8C109AF81755</a:ObjectID>
+<a:Name>MDP</a:Name>
+<a:Code>MDP</a:Code>
+<a:CreationDate>1569169488</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569169601</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA8</a:DataType>
+<a:Length>8</a:Length>
+</o:DataItem>
+<o:DataItem Id="o16">
+<a:ObjectID>DCB75480-F462-4CB0-8F1C-178023B0C998</a:ObjectID>
+<a:Name>ID_INF</a:Name>
+<a:Code>ID_INF</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o18">
+<a:ObjectID>FB88F482-D593-4012-86BD-B93EB976FB19</a:ObjectID>
+<a:Name>Nom</a:Name>
+<a:Code>NOM</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o20">
+<a:ObjectID>720EB0EF-6B20-4F68-9310-9BC4B54A7E5A</a:ObjectID>
+<a:Name>Prenom</a:Name>
+<a:Code>PRENOM</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o22">
+<a:ObjectID>78F84D9B-BEFC-4DD3-BD36-E411DE1B9934</a:ObjectID>
+<a:Name>TyprM</a:Name>
+<a:Code>TYPRM</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o24">
+<a:ObjectID>DAC9E31D-28E0-485E-8AAC-3C9CAD7D63C2</a:ObjectID>
+<a:Name>Marque</a:Name>
+<a:Code>MARQUE</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o26">
+<a:ObjectID>1665B0A1-64B8-4E03-B520-A24C30486D02</a:ObjectID>
+<a:Name>Modele</a:Name>
+<a:Code>MODELE</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o28">
+<a:ObjectID>FEDAC671-C496-402F-81BB-FF41BDAA4AEE</a:ObjectID>
+<a:Name>NS</a:Name>
+<a:Code>NS</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o30">
+<a:ObjectID>22C2533E-81BE-450B-9FB0-D360E485640B</a:ObjectID>
+<a:Name>IDINV</a:Name>
+<a:Code>IDINV</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>I</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o32">
+<a:ObjectID>3FBB9554-6C8C-42D9-B9A2-9B596BF733FB</a:ObjectID>
+<a:Name>Datel</a:Name>
+<a:Code>DATEL</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>D</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o34">
+<a:ObjectID>ADBAF47C-2467-44E4-BC24-28DCC220AAD2</a:ObjectID>
+<a:Name>Datef</a:Name>
+<a:Code>DATEF</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>D</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o36">
+<a:ObjectID>03126390-44EF-4B49-8B6F-D39833C4F8C2</a:ObjectID>
+<a:Name>Datea</a:Name>
+<a:Code>DATEA</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>D</a:DataType>
+</o:DataItem>
+<o:DataItem Id="o38">
+<a:ObjectID>7037FF97-4566-403B-AB8F-50A08695495C</a:ObjectID>
+<a:Name>CPU</a:Name>
+<a:Code>CPU</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o40">
+<a:ObjectID>EFC4BE51-4971-4A33-B65B-783F1FBD35DE</a:ObjectID>
+<a:Name>RAM</a:Name>
+<a:Code>RAM</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o42">
+<a:ObjectID>DBE4FB12-3C2D-4CC6-939A-B10BCADC1635</a:ObjectID>
+<a:Name>TypeHHD</a:Name>
+<a:Code>TYPEHHD</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o44">
+<a:ObjectID>D46164F3-37F9-40D6-BDD7-F137B504EB2A</a:ObjectID>
+<a:Name>Capacite</a:Name>
+<a:Code>CAPACITE</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o46">
+<a:ObjectID>C8E236AD-F031-46C0-87A4-75AA79EF1A3B</a:ObjectID>
+<a:Name>Taille</a:Name>
+<a:Code>TAILLE</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o48">
+<a:ObjectID>08B752B7-01B3-40F9-8990-457F67C75748</a:ObjectID>
+<a:Name>N SE</a:Name>
+<a:Code>N_SE</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o50">
+<a:ObjectID>94E77363-D116-4E0B-8259-1D5F384BC44E</a:ObjectID>
+<a:Name>Souris</a:Name>
+<a:Code>SOURIS</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o52">
+<a:ObjectID>B1F490EA-930D-4A06-BE34-72EACDC58097</a:ObjectID>
+<a:Name>Clavier</a:Name>
+<a:Code>CLAVIER</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o54">
+<a:ObjectID>E1256590-20A1-492B-9ED6-76AA1E6454C4</a:ObjectID>
+<a:Name>Adaptateurs</a:Name>
+<a:Code>ADAPTATEURS</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o56">
+<a:ObjectID>90F2A873-0E3D-4719-9C37-3FAE0ED9D14F</a:ObjectID>
+<a:Name>Casque</a:Name>
+<a:Code>CASQUE</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+<o:DataItem Id="o58">
+<a:ObjectID>F81B41F2-69F2-4DA0-AFD8-9118469331E8</a:ObjectID>
+<a:Name>NSC</a:Name>
+<a:Code>NSC</a:Code>
+<a:CreationDate>1569169772</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170250</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:DataType>VA100</a:DataType>
+<a:Length>100</a:Length>
+</o:DataItem>
+</c:DataItems>
+<c:Associations>
+<o:Association Id="o13">
+<a:ObjectID>8158CD9C-BD3F-422E-9E58-25255A31CF09</a:ObjectID>
+<a:Name>Avoir</a:Name>
+<a:Code>AVOIR</a:Code>
+<a:CreationDate>1569170284</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170522</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+</o:Association>
+</c:Associations>
+<c:AssociationsLinks>
+<o:AssociationLink Id="o7">
+<a:ObjectID>9D519EC5-6092-443D-B26C-97E2159348CF</a:ObjectID>
+<a:CreationDate>1569170363</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170363</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:Cardinality>0,n</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o13"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o12"/>
+</c:Object2>
+</o:AssociationLink>
+<o:AssociationLink Id="o10">
+<a:ObjectID>A9C34715-A063-407D-BCAE-1C7AB1C32822</a:ObjectID>
+<a:CreationDate>1569170364</a:CreationDate>
+<a:Creator>ASUS</a:Creator>
+<a:ModificationDate>1569170522</a:ModificationDate>
+<a:Modifier>ASUS</a:Modifier>
+<a:Cardinality>1,1</a:Cardinality>
+<c:Object1>
+<o:Association Ref="o13"/>
+</c:Object1>
+<c:Object2>
+<o:Entity Ref="o11"/>
+</c:Object2>
+</o:AssociationLink>
+</c:AssociationsLinks>
+</o:Model>
+</c:Children>
+</o:RootObject>
+
+</Model>
